@@ -49,12 +49,3 @@ class ValidCPF{
     }
 
 }
-
-const cpf = new ValidCPF('374.615.055-80')
-
-if(cpf.isValid()) {
-    console.log("CPF válido")
-}else{
-    console.log("CPF Inválido")
-}
-
